@@ -1,0 +1,7 @@
+{{define "content"}}
+<form hx-post="/analyze" hx-target="#result">
+    <textarea name="text" placeholder="Enter text to analyze" required></textarea>
+    <button type="submit">Analyze</button>
+</form>
+<div id="result"></div>
+{{end}}
